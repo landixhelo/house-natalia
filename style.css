@@ -1,0 +1,391 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    background-color: #F4F4F4;
+}
+
+
+/* annimation */
+
+.fadeinleft {
+    opacity:0;
+    transform: translateX(100px);
+    transition: all 1s ease-out;
+}
+
+.fadeinright {
+    opacity: 0;
+    transform: translateX(-100px);
+    transition: all 1s ease-out;
+}
+
+.fadeindown {
+    opacity:0 ;
+    transform: translateY(-100px);
+    transition: all 1.2s ease-out;
+}
+
+.fadeinup {
+    opacity: 0;
+    transform: translateY(100px);
+    transition: all 1.2s ease-out;
+}
+
+.fade-in {
+    opacity: 0;
+    transition: all 1.3s ease-in;
+}
+
+.active-left,
+.active,
+.active-right,
+.active-down,
+.active-up {
+    opacity: 1;
+    transform: translateX(0);
+    transform: translateY(0);
+}
+
+.fadein {
+    opacity: 0;
+}
+
+
+.regular {
+    font-family: "Madimi One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.nova {
+    font-family: "Bona Nova", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.brygada {
+    font-family: "Brygada 1918", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: italic;
+  }
+  
+  
+.btn-1 {
+    padding: 10px 20px;
+    background-color: #BE955B;
+    border: none;
+    border-radius: 15px;
+    transition: 1s ease;
+}
+
+.btn-2 {
+    background-color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 15px;
+    transition: 1s ease;
+}
+
+.btn-2 a {
+    text-decoration: none;
+    color: #BE955B;
+    font-size: 17px;
+    transition: 1s ease;
+}
+
+.btn-2:hover {
+    opacity: 0.9;
+    transition: 1s ease;
+}
+.btn-1:hover {
+    opacity: 0.8;
+    transition: 1s ease;
+}
+
+.btn-1 a {
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+}
+
+#home-index {
+    background: url('img/a\ \(10\).JPG') rgba(0, 0, 0, 0.35);
+    height: 70vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode:multiply;
+    background-attachment: fixed;
+}
+
+#about-index {
+    background: url('img/a\ \(20\).JPG') rgba(0, 0, 0, 0.45);
+    height: 70vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode:multiply;
+    background-attachment: fixed;
+}
+
+#rooms-index {
+    background: url('img/a\ \(35\).JPG') rgba(0, 0, 0, 0.45);
+    height: 70vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode:multiply;
+    background-attachment: fixed;
+}
+
+#gallery-index {
+    height: 70vh;
+    background: url('img/a\ \(8\).JPG') rgba(0, 0, 0, 0.45);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode:multiply;
+    background-attachment: fixed;
+}
+
+#rooms-home {
+    background: url('img/a\ \(97\).JPG') rgba(0, 0, 0, 0.35);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode:multiply;
+}
+
+#rooms-home .rooms-desc {
+    background-color: rgba(0, 0, 0, 0.35);
+    width: 100%;
+}
+
+#rooms-home .rooms-text {
+    padding: 30px;
+    background-color: rgba(0, 0, 0, 0.35);
+}
+
+#rooms-home .rooms-text p {
+    color: grey;
+    font-size: 18px;
+}
+
+.rooms-description {
+    margin: 40px 0;
+}
+
+.rooms-description h2 {
+    color: #BE955B;
+    font-size: 40px;
+}
+
+.rooms-description h3 {
+    color: white;
+    font-size: 22px;
+    margin: 20px 0;
+}
+
+#resto-home .rest-desc h1 {
+    color: #BE955B;
+    font-size: 40px;
+} 
+
+#resto-home .rest-desc h3 {
+    color: white;
+    font-size: 24px;
+}
+
+#resto-home .rest-desc p {
+    color: white;
+    font-size: 18px;
+}
+
+#facilities {
+    background: url(img/outdoor.jpeg) rgba(0, 0, 0, 0.75);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode:multiply;
+    background-attachment: fixed;
+}
+
+#facilities-about {
+    background: url('img/485429458.jpg') rgba(0, 0, 0, 0.35);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode:multiply;
+    background-attachment: fixed;
+}
+.about-dsc {
+    -webkit-box-shadow: inset 0px 0px 15px 5px rgba(128,118,128,1);
+    -moz-box-shadow: inset 0px 0px 15px 5px rgba(128,118,128,1);
+    box-shadow: inset 0px 0px 15px 5px rgba(128,118,128,1);
+    padding: 30px;
+}
+
+.faci p {
+    color: #0D3348;
+    font-size: 25px;
+    margin-top: 20px;
+}
+
+.contact-insta {
+    border: 1px solid #BE955B;
+    padding: 30px;
+    background-color: #BE955B;
+    height: 210px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 10px 0;
+
+}
+
+.contact-insta i {
+    font-size: 20px;
+    color: white;
+}
+
+.contact-insta a {
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+
+.contact-info {
+    padding: 20px;
+    background-color: #0D3348;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 10px 0;
+}
+
+.contact-info i {
+    font-size:20px;
+    color: white;
+}
+
+.contact-info a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+#testimonials {
+    background: url('img/a\ \(26\).JPG') rgba(0, 0, 0, 0.50);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: multiply;
+    background-attachment: fixed;
+}
+
+.item {
+    background-color: rgba(0, 0, 0, 0.35);
+    padding: 30px;
+}
+
+.users h3 {
+    color: white;
+}
+
+.users h4 {
+    color: grey;
+}
+
+.users-review p {
+    color: white;
+}
+nav.stroke ul li a,
+nav.fill ul li a {
+  position: relative;
+  transition: 1s ease;
+}
+
+nav.stroke ul li a:after,
+nav.fill ul li a:after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 0%;
+  content: '.';
+  color: transparent;
+  background: #BE955B;
+  height: 3px;
+  transition: 1s ease;
+}
+nav.stroke ul li a:hover:after {
+  width: 100%;
+}
+
+.dropdown-item a {
+    margin: 20px 0;
+}
+.dropdown-item:hover {
+    background-color: #0D3348;
+}
+
+@media (max-width:767px) {
+    #about-home {
+        margin:20px 0!important;
+    }
+
+    .about-dsc {
+        margin: 20px 0;
+    }
+
+    .rooms-desc {
+        margin: 20px 0;
+    }
+
+    .rest-img {
+        margin: 10px 0;
+    }
+    
+    .faci {
+        margin: 20px 0;
+    }
+
+    .galery-img {
+        margin: 20px 0;
+    }
+
+    .contant-info i,a {
+        font-size: 15px!important;
+    }
+
+    .contact-info i, p {
+        font-size: 15px!important;
+    }
+}
+
+@media only screen and ( max-width:1200px) and (min-width:767px){
+    .contact-info i {
+        font-size: 15px;
+    }
+
+    .contact-info p {
+        font-size: 15px!important;
+    }
+
+    .contact-info a {
+        font-size: 15px!important;
+    }
+
+    .contact-info {
+        padding: 20px;
+    }
+}
+
+
+
